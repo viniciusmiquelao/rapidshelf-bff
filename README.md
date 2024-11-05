@@ -18,7 +18,7 @@ API para um marketplace de produtos próximos do vencimento entre empresas e ind
 ## Requisitos
 
 *   Docker e Docker Compose instalados na máquina.
-*   JDK 17 (para desenvolvimento fora do Docker).
+*   JDK 21 (para desenvolvimento fora do Docker).
 *   Maven (para desenvolvimento fora do Docker).
 
 ## Instalação
