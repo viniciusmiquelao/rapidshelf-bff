@@ -34,7 +34,7 @@ public class SecurityConfigurations {
                         .requestMatchers(HttpMethod.POST, "/auth/login").permitAll()
                         .requestMatchers(HttpMethod.POST, "/auth/register").permitAll()
                         .requestMatchers(HttpMethod.POST, "/products").hasRole("SELLER")
-                        .requestMatchers(HttpMethod.PATCH, "/products").hasRole("SELLER")
+                        .requestMatchers(HttpMethod.PATCH, "/products/*/status").hasRole("ADMIN")
                         .requestMatchers(HttpMethod.GET, "/products/all").hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
