@@ -84,13 +84,10 @@ Autentica um usuário e retorna um token JWT.
 
 ### Usuários
 
-#### GET /users/{userId}
+#### GET /users
 
-Retorna informações do usuário.
+Retorna o perfil do usuãrio
 
-**Parâmetros de URL:**
-
-*   `userId` - ID do usuário.
 
 **Resposta:**
 
